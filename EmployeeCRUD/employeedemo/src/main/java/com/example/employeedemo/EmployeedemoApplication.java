@@ -1,4 +1,4 @@
-package com.example.main;
+package com.example.employeedemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,10 +10,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("com.example.model")
 @ComponentScan("com.example")
 @EnableJpaRepositories("com.example.repository")
-public class AltiRestdemo4Application {
+public class EmployeedemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AltiRestdemo4Application.class, args);
+		SpringApplication.run(EmployeedemoApplication.class, args);
 	}
 
 }

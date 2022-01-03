@@ -1,4 +1,4 @@
-package com.example.main;
+package com.example.employeedemo;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(AltiRestdemo4Application.class);
+		return application.sources(EmployeedemoApplication.class);
 	}
 
 }
